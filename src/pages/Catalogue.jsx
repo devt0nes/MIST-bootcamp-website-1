@@ -161,9 +161,49 @@ const innovations = [
         country: "United Kingdom (developed at CERN, Switzerland)",
         working: "Uses HTTP to retrieve linked documents (web pages) identified by URLs, displayed in web browsers via HTML.",
         link: "https://home.cern/science/computing/birth-web"
+    },
+    {
+        title: "iPhone (Smartphone)",
+        brief: "The iPhone is a revolutionary smartphone that combines a touch screen, mobile phone capabilities, internet access, and a wide range of applications in a single device, changing how people communicate and interact with technology",
+        img: "img18.jpg",
+        inventors: "Apple Inc. (led by Steve Jobs, Jonathan Ive, and the Apple team)",
+        year: "2007",
+        country: "USA",
+        working: "The iPhone operates on a touchscreen interface, with a multi-touch display, and uses an operating system (iOS) to run apps, handle communication (calls, messaging), and access the internet.",
+        link: "https://en.wikipedia.org/wiki/IPhone_(1st_generation)"
+    },
+    {
+        title: "Facebook",
+        brief: "Social media platform that connects people globally, allowing users to share content, communicate, and build communities through posts, messages, and multimedia",
+        img: "img19.jpg",
+        inventors: "Mark Zuckerberg, Eduardo Saverin, Andrew McCollum, Dustin Moskovitz, and Chris Hughes",
+        year: "2004",
+        country: "USA",
+        working: "A social networking platform that became the most widely used in the world, enabling users to connect, share, and communicate online.",
+        link: "https://en.wikipedia.org/wiki/History_of_Facebook"
+    },
+    {
+        title: "Neuralink (Brain-Computer Interface)",
+        brief: "Neurotechnology company developing brain-machine interfaces (BMIs) to enable direct communication between the human brain and computers, with applications in medical treatments and human augmentation",
+        img: "img20.jpg",
+        inventors: "Elon Musk and Neuralink team (including Max Hodak, Ben Rapoport)",
+        year: "2016 (Founded)",
+        country: "USA",
+        working: "Neuralink uses tiny, flexible threads implanted in the brain to record and stimulate neural activity, allowing users to control devices or treat neurological disorders by interpreting brain signals.",
+        link: "https://en.wikipedia.org/wiki/Neuralink"
+    },
+    {
+        title: "Virtual Reality (Oculus Rift)",
+        brief: "A virtual reality headset that immerses users in a 3D, interactive virtual world, enhancing gaming, entertainment, and training experiences through head-tracking and stereoscopic displays",
+        img: "img17.jpg",
+        inventors: "Oculus VR (led by Palmer Luckey, including Nate Mitchell, Brendan Iribe)",
+        year: "2012 (Initial prototype), 2016 (Released to the public)",
+        country: "USA",
+        working: "Oculus Rift uses sensors and displays to track head movements and deliver immersive visual and auditory experiences, simulating real-world environments for virtual interaction.",
+        link: "https://techcrunch.com/2014/03/26/a-brief-history-of-oculus/"
     }
 ];
-const headings = ['1900-1925', '1925-1950', '1950-1975', '1975-2000'];
+const headings = ['1900-1925', '1925-1950', '1950-1975', '1975-2000', '2000-2025'];
 
 function InnLink({ selectedInn }) {
     const [isHovered, setIsHovered] = useState(false);
@@ -201,7 +241,7 @@ const Catalogue = () => {
                         }
                         return chunks;
                     };
-                    const innovationGroups = chunkArray(innovations, Math.ceil(innovations.length / 4));
+                    const innovationGroups = chunkArray(innovations, Math.ceil(innovations.length / 5));
                     
                     return innovationGroups.map((group, groupIndex) => (
                         <div className="categories" key={groupIndex}>

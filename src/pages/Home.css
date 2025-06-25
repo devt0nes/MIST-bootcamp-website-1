@@ -10,8 +10,6 @@ body{
 }
 .intro {
   text-align: center;
-  background-color: #111; /* force dark background */
-  min-height: 100vh;       /* ensure it covers full screen */
   border-bottom: white;
   border-style: solid;
 }
@@ -54,7 +52,6 @@ body{
 
 .buttons{
     margin: 70px;
-    margin-bottom: 0px;
     border: none;
 }
 
@@ -69,6 +66,7 @@ background-color: #1a1a1a;
   cursor: pointer;
   transition: all 0.3s ease;
   box-shadow: 0 0 10px rgb(243, 4, 187); /* subtle base glow */
+  min-width: 170px;
 
 }
 .view-catalog:hover, 

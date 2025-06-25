@@ -63,9 +63,16 @@
     display: flex;
     align-items: center;
     justify-content:space-between;
+    flex-wrap: wrap;
+    flex-direction: row;
     padding-bottom: 1rem;
-    position: relative;
 }
+
+/*@media (max-width: 768px) {
+    .flex {
+      flex-direction: column;
+    }
+}*/
 
 .flex-item {
     margin-left: 35px;
@@ -76,6 +83,8 @@
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
+    margin-left: 0px;
+    margin-right: 0px;
 }
 
 .pac {
