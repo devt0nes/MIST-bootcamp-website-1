@@ -22,7 +22,7 @@ function Submissions(){
     const handleSubmit = (e) => {
         e.preventDefault();
         console.log("Submitted innovation:", formData);
-        alert("Innovation submitted successfully!");
+        alert("Innovation submitted successfully! We'll review it and get back to you soon");
         
         setFormData({ title: '', brief: '', img: '', inventors: '', year: '', country: '', working: '' });
     };
