@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+    margin: 0px;
+    background-color: #111;
+    color: white;
+}
+.intro {
+  text-align: center;
+  background-color: #111; /* force dark background */
+  min-height: 100vh;       /* ensure it covers full screen */
+  border-bottom: white;
+  border-style: solid;
+}
+.welcome{
+    margin-top: 50px;
+    border: 5px solid black;
+    padding: 50px 50px;
+    border-radius: 40px;
+    display: inline-block;    
+    box-shadow:
+    rgba(240, 46, 170, 0.4) -5px 5px,
+    rgba(240, 46, 170, 0.3) -10px 10px,
+    rgba(240, 46, 170, 0.2) -15px 15px,
+    rgba(240, 46, 170, 0.1) -20px 20px,
+    rgba(240, 46, 170, 0.05) -25px 25px,
+
+    rgba(240, 46, 170, 0.4) 5px 5px,
+    rgba(240, 46, 170, 0.3) 10px 10px,
+    rgba(240, 46, 170, 0.2) 15px 15px,
+    rgba(240, 46, 170, 0.1) 20px 20px,
+    rgba(240, 46, 170, 0.05) 25px 25px,
+
+    rgba(240, 46, 170, 0.4) -5px -5px,
+    rgba(240, 46, 170, 0.3) -10px -10px,
+    rgba(240, 46, 170, 0.2) -15px -15px,
+    rgba(240, 46, 170, 0.1) -20px -20px,
+    rgba(240, 46, 170, 0.05) -25px -25px,
+
+    rgba(240, 46, 170, 0.4) 5px -5px,
+    rgba(240, 46, 170, 0.3) 10px -10px,
+    rgba(240, 46, 170, 0.2) 15px -15px,
+    rgba(240, 46, 170, 0.1) 20px -20px,
+    rgba(240, 46, 170, 0.05) 25px -25px;
+}
+.welcome:hover{
+    transform: scale(1.05);
+    transition:  0.2s ease-in;
+    cursor: pointer;
+}
+
+.buttons{
+    margin: 70px;
+    margin-bottom: 0px;
+    border: none;
+}
+
+.view-catalog, .submit {
+background-color: #1a1a1a;
+  color: white;
+  border-radius: 50px;
+  margin: 20px;
+  padding: 14px 28px;
+  border: 2px solid transparent;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 0 10px rgb(243, 4, 187); /* subtle base glow */
+
+}
+.view-catalog:hover, 
+.submit:hover{
+  border: 2px solid rgb(243, 4, 187);
+  box-shadow: 0 0 20px rgba(164, 11, 106, 0.6),
+              0 0 40px rgba(230, 7, 144, 0.82),
+              0 0 60px rgba(255, 4, 151, 0.164);
+  background-color: #2a2a2a;
+  transform: scale(1.03);
+
+}
+.intro-desc {
+  margin-top: 70px;
+  font-size: 1.1rem;
+  color: #ccc;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 1.6;
+}

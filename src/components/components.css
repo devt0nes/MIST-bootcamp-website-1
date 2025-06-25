@@ -3,7 +3,8 @@
     background-color: #111;
     color: white;
     padding: 1rem 0;
-    border-bottom: white;
+    border-top: white;
+    border-bottom: #000000;
     border-style: solid;
 }
   
@@ -37,4 +38,46 @@
   
 .navbar-links a:hover {
     transform: translateY(-5px);
+}
+
+
+
+.footer {
+    text-align: center;
+    padding-top: 1rem;
+    background-color: #0d0d0d;
+    color: white;
+    font-size: 0.9rem;
+    border-bottom: white;
+    border-top: #000000;
+    border-style: solid;
+}
+
+.footer h2 {
+    margin-bottom: 0px;
+    margin-top: 0px;
+    font-size: xx-large;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    padding-bottom: 1rem;
+    position: relative;
+}
+
+.flex-item {
+    margin-left: 35px;
+    margin-right: 35px;
+}
+
+.center-item {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.pac {
+    width: 120px;
 }

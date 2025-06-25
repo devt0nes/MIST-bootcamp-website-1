@@ -4,6 +4,8 @@
     padding: 2rem;
     background-color: #111;
     color: white;
+    border-bottom: white;
+    border-style: solid;
   }
 
 .categories {
@@ -101,7 +103,7 @@
 }
   
 .modal {
-    background-color: #222;
+    background-color: #000000;
     padding: 2rem;
     border-radius: 8px;
     max-width: 800px;
@@ -110,6 +112,7 @@
     display: flex;
     flex-direction: column;
     color: white;
+    border: white solid;
 }
   
 .modal-close {
@@ -130,11 +133,27 @@
   
 .modal-left img {
     width: 100%;
-    border-radius: 6px;
+    border-radius: 0px;
+    border-style: outset;
+    border-color: rgb(255, 238, 0);
+    border-width: 4px;
 }
   
 .modal-right {
     margin-top: 1rem;
+    text-align: left;
+}
+
+.modal-right a {
+    color: rgb(240, 46, 170);
+}
+
+.modal-right a:hover {
+    text-shadow: 0 0 8px rgba(255, 255, 255, 0.486), 0 0 15px rgba(255, 255, 255, 0.47);
+}
+
+.modal-right h2 {
+    text-align: center;
 }
   
 @media (min-width: 768px) {
