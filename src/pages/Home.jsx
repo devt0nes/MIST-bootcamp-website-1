@@ -16,19 +16,26 @@ function Home(){
     return(
         <>
         <div className='intro'>
-                <h1 className='welcome'>Welcome to TechTimes</h1>
-                <p className='intro-desc'>
-                   Explore groundbreaking innovations from the past century. Browse through our catalog of historic tech marvels or contribute by submitting one we've missed!
-                </p>
-                <div className='buttons'>
-                    <button className='view-catalog' onClick={handleViewCatalog}>View Catalog</button>
-                    <button className='submit' onClick={handleSubmit}>Submit</button>
-
+            <div className='floatelement'>
+                <h1 className='welcome font-face-px'>Welcome to</h1>
+                <div>
+                    <img src={'../../public/title.png'} className='mytitle' />
                 </div>
-
+            </div>
+                
+            <p className='intro-desc'>
+                Explore groundbreaking innovations from the past century. Browse through our catalog of historic tech marvels or contribute by submitting one we've missed!
+            </p>
+            <div className='buttons'>
+                <button className='view-catalog' onClick={handleViewCatalog}>View Catalog</button>
+                <button className='submit' onClick={handleSubmit}>Submit</button>
 
             </div>
-        </>);
+
+
+        </div>
+        </>
+    );
 }
 
 export default Home
