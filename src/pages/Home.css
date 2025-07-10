@@ -6,76 +6,48 @@
 body{
     margin: 0px;
     background-color: #111;
-    background-image: url(../../public/pokebg.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
     color: white;
 }
 .intro {
   text-align: center;
   border-bottom: white;
+  border-style: solid;
 }
 .welcome{
-  margin-top: 50px;
-  color: rgb(6, 0, 78);
-  display: inline-block;    
-  /*
-  border: 5px solid black;
-  box-shadow:
-  rgba(240, 46, 170, 0.4) -5px 5px,
-  rgba(240, 46, 170, 0.3) -10px 10px,
-  rgba(240, 46, 170, 0.2) -15px 15px,
-  rgba(240, 46, 170, 0.1) -20px 20px,
-  rgba(240, 46, 170, 0.05) -25px 25px,
+    margin-top: 50px;
+    border: 5px solid black;
+    padding: 50px 50px;
+    border-radius: 40px;
+    display: inline-block;    
+    box-shadow:
+    rgba(240, 46, 170, 0.4) -5px 5px,
+    rgba(240, 46, 170, 0.3) -10px 10px,
+    rgba(240, 46, 170, 0.2) -15px 15px,
+    rgba(240, 46, 170, 0.1) -20px 20px,
+    rgba(240, 46, 170, 0.05) -25px 25px,
 
-  rgba(240, 46, 170, 0.4) 5px 5px,
-  rgba(240, 46, 170, 0.3) 10px 10px,
-  rgba(240, 46, 170, 0.2) 15px 15px,
-  rgba(240, 46, 170, 0.1) 20px 20px,
-  rgba(240, 46, 170, 0.05) 25px 25px,
+    rgba(240, 46, 170, 0.4) 5px 5px,
+    rgba(240, 46, 170, 0.3) 10px 10px,
+    rgba(240, 46, 170, 0.2) 15px 15px,
+    rgba(240, 46, 170, 0.1) 20px 20px,
+    rgba(240, 46, 170, 0.05) 25px 25px,
 
-  rgba(240, 46, 170, 0.4) -5px -5px,
-  rgba(240, 46, 170, 0.3) -10px -10px,
-  rgba(240, 46, 170, 0.2) -15px -15px,
-  rgba(240, 46, 170, 0.1) -20px -20px,
-  rgba(240, 46, 170, 0.05) -25px -25px,
+    rgba(240, 46, 170, 0.4) -5px -5px,
+    rgba(240, 46, 170, 0.3) -10px -10px,
+    rgba(240, 46, 170, 0.2) -15px -15px,
+    rgba(240, 46, 170, 0.1) -20px -20px,
+    rgba(240, 46, 170, 0.05) -25px -25px,
 
-  rgba(240, 46, 170, 0.4) 5px -5px,
-  rgba(240, 46, 170, 0.3) 10px -10px,
-  rgba(240, 46, 170, 0.2) 15px -15px,
-  rgba(240, 46, 170, 0.1) 20px -20px,
-  rgba(240, 46, 170, 0.05) 25px -25px;
-  */
+    rgba(240, 46, 170, 0.4) 5px -5px,
+    rgba(240, 46, 170, 0.3) 10px -10px,
+    rgba(240, 46, 170, 0.2) 15px -15px,
+    rgba(240, 46, 170, 0.1) 20px -20px,
+    rgba(240, 46, 170, 0.05) 25px -25px;
 }
-
-/*
 .welcome:hover{
     transform: scale(1.05);
     transition:  0.2s ease-in;
     cursor: pointer;
-}
-*/
-
-.floatelement {
-  animation: float 3s ease-in-out infinite;
-}
-
-@keyframes float {
-  0% {
-      transform: translateY(0);
-  }
-
-  50% {
-      transform: translateY(-5px);
-  }
-
-  100% {
-      transform: translateY(0);
-  }
-}
-
-.mytitle {
-  width: 50rem;
 }
 
 .buttons{
@@ -110,7 +82,7 @@ background-color: #1a1a1a;
 .intro-desc {
   margin-top: 70px;
   font-size: 1.1rem;
-  color: #0c0050;
+  color: #ccc;
   max-width: 700px;
   margin-left: auto;
   margin-right: auto;

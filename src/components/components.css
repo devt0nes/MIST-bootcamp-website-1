@@ -3,6 +3,9 @@
     background-color: #111;
     color: white;
     padding: 1rem 0;
+    border-top: white;
+    border-bottom: #000000;
+    border-style: solid;
 }
   
 .navbar-container {
@@ -45,6 +48,9 @@
     background-color: #0d0d0d;
     color: white;
     font-size: 0.9rem;
+    border-bottom: white;
+    border-top: #000000;
+    border-style: solid;
 }
 
 .footer h2 {
