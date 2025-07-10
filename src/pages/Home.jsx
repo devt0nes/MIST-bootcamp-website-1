@@ -19,7 +19,7 @@ function Home(){
             <div className='floatelement'>
                 <h1 className='welcome font-face-px'>Welcome to</h1>
                 <div>
-                    <img src={'../../public/title.png'} className='mytitle' />
+                    <img src={'title.png'} className='mytitle' />
                 </div>
             </div>
                 
